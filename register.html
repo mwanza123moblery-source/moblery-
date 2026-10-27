@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bright future training center</title>
+    <link rel="stylesheet" href="style.css">
+    <a href="index.html" class="home-btn">back to home</a>
+    </head>
+    <body>
+           <header>
+            <h1>Register</h1>
+            <hr>
+        </header>
+        <nav class="navbar">
+            <ul>
+                <a href="home.html"></a>Home</a>
+                <a href="programmes.html">Programmes</a>
+                <a href="register.html">Register</a>
+                <a href="contact.html">Contact</a>
+            </ul>
+        </nav>
+        <main>
+            <section class="section-register">
+                <h2>Register form</h2>
+                <form action="#" method="post">
+                    <fieldset>
+                        <legend>student information</legend>
+                        <div>
+                            <label for="fullname">full name</label>
+                            <input type="text" id="fullname" name="fullname" required><br></div>
+                        </div>
+                        <div>
+                            <label for="email">email address</label>
+                            <input type="email" id="email" name="email" required><br></div>
+                        </div>
+                        <div>
+                            <label for="phone">phone number</label>
+                            <input type="tel" id="phone" name="phone"><br></div>
+                        </div>
+                        <div>
+                            <label>gender</label>
+                            <input type="radio" id="male" name="gender" value="male"><br></div>
+                            <label for="male">male</label>
+                            <input type="radio" id="female"  name="gender" value="female"><br></br>
+                            <label for="female">female</label>
+                        </div>
+                        <div>
+                            <label for="dob">date of birth</label>
+                            <input type="date" id="dob" name="dob"required><br></br>
+                        </div>
+                        <div>
+                             <label for="programmes">preferred programmes: </label>
+                             <select id="programmes" name="programmes" required>
+                                <option value="">--select--</option>
+                                <option value="intro-programing">introduction to Computer intro-programing</option>
+                                <option value="web-design">web design with html and css</option>
+                                <option value="digital-marketing">digital marketing  fundamentals</option>
+                                <option value="hardware-networking">Computer hardware and networking</option>
+                             </select>
+                        </div>
+                        <div>
+                            <label>learnig mode:</label><br>
+                             <label for="physical">physical classes</label>
+                            <input type="checkbox" id="physical" name="learnig_mode" value="physical classes"><br></br>
+                            <label for="online">online classes</label>
+                            <input type="checkbox" id="online" name="learnig_mode" value="online classes"><br></br>
+                             </div>
+                        <div>
+                            <label for="messege">additional messege</label>
+                            <textarea id=" messege" name="messege" rows="4" cols="30"></textarea><br></br>
+                            </textarea>
+                        </div>
+                        <input type="submit" value="submit applicatoin">
+                        <input type="reset" value="clear form">
+                    </fieldset>
+                </form>
+            </section>
+        </main>
+        <section>
+            <h2>class timetable</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>programm</th>
+                        <th>days</th>
+                        <th>time</th>
+                        <th>duration</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <td>introduction to computer</td>
+                    <td>monday and wednesday</td>
+                    <td>09:00-11:00 </td>
+                    <td>6 weeks</td>
+                    </tr>
+                </tbody>
+                <tr>
+                    <td>web design with html and css</td>
+                    <td>tuesday and thursday</td>
+                    <td>12:00-14:00</td>
+                    <td>12 months</td>
+                </tr>
+                <tr>
+                    <td>digital marketing</td>
+                    <td>friday</td>
+                    <td>15:00-17:00</td>
+                    <td>7 weeks</td>
+                </tr>
+            </table>
+        </section>
+             </body>
+             <hr>
+              <footer>
+            <p>&copy; 2026 Bright future training center. All rights reserved</p>
+        </footer>
+        </html>

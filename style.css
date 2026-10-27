@@ -1,0 +1,25 @@
+
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(235, 228, 39);
+}
+
+header{
+    background-color: rgb(131, 110, 151);
+    text-shadow: none;
+}
+
+table{
+    width:100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table,th,td{
+    border: 1px solid black;
+}
+
+th{
+    background-color: darkolivegreen;
+}
