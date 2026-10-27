@@ -1,2 +1,3 @@
-#mobleryMwanza- software portfolio 
-Software engineering Protfolio showcasing my web development, programming, database, automation and digital Design projects.
+# Moblery Mwanza — Software Engineering Portfolio
+
+Software engineering portfolio showcasing my web development, programming, database, automation, and digital design projects.
