@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact - Bright Future Training Center</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Bright Future Training Center</h1>
+        <p>Contact Us</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="programmes.html">Programmes</a>
+        <a href="register.html">Register</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <main>
+
+        <h2>Get In Touch</h2>
+
+        <p>
+            Have a question about our programmes?
+            Contact Bright Future Training Center.
+        </p>
+
+        <section>
+            <h3>Phone</h3>
+            <p>+260 XXX XXX XXX</p>
+        </section>
+
+        <section>
+            <h3>Email</h3>
+            <p>brightfuture@example.com</p>
+        </section>
+
+        <section>
+            <h3>Location</h3>
+            <p>Lusaka, Zambia</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Bright Future Training Center</p>
+    </footer>
+
+</body>
+
+</html>
