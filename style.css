@@ -48,3 +48,7 @@ button {
 button:hover {
     background-color: #2C6E9B;
 }
+label {
+    font-weight: bold;
+    color: #0F2942;
+}
