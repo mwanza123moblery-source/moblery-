@@ -11,3 +11,40 @@ header {
     text-align: center;
     padding: 30px;
 }
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+}
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+section h3 {
+    color: #0F2942;
+    margin-bottom: 8px;
+}
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+button {
+    background-color: #0F2942;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover {
+    background-color: #2C6E9B;
+}
